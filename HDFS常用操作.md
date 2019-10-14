@@ -22,13 +22,21 @@
 
 ​	HDFS采用主/从体系结构模型，一个HDFS集群拥有一个NameNode和多个DataNode。NameNode管理文件系统的元数据，DataNode存储实际的数据。客户端通过NameNode和DataNode的交互访问文件系统，联系NameNode以获取文件的元数据，而真正的文件I/O操作是直接和DataNode进行交互[1]。
 
+> 创建目录：hadoop fs -mkdir [-p] <paths> 	example： hadoop fs -mkdir /user/hadoop/dir1 
+>
+> 创建空文件： hadoop fs -touchz URI  	example： hadoop fs -touchz pathname
+>
+> 显示目录中的文件：
+>
+>  上传文件到HDFS： hadoop fs -put localfile /user/hadoop/hadoopfile 
+
 #### 四、实验内容
 
 ​	1.启动HDFS服务。本实验已经配置好HDFS集群环境和jdk，首先启动HDFS服务，然后查看HDFS是否启动成功。
 
 2. 创建user1和user2目录，在user1目录中创建remote.txt文件，查看user1目录下文件。
 
-3. 在本地创建local.txt文件，文件中写入Hello,Hadoop! Hello,HDFS!然后上传至HDFS user2目录
+3. 在本地创建local.txt文件，文件中写入“Hello,Hadoop! Hello,HDFS!”然后上传至HDFS user2目录
 
 4. 将user1目录下的remote.txt文件移动至user2目录下，查看源目录下的文件是否存在。
 
@@ -37,4 +45,9 @@
 6. 查看user1目录下local.txt文件的内容。
 
 7. 删除user2目录下的remote.txt文件。
+
 8. 关闭HDFS服务。
+
+   五、参考资料
+
+> 
