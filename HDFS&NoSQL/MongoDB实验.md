@@ -21,6 +21,7 @@ MongoDB 是由 C++ 语言编写的一个面向文档存储的数据库，操作�
 1.  利用MongoDB官网上的安装指南完成最新版本MongoDB的安装部署。
     
     *root用户的密码为zkpk
+    
     参考链接 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-red-hat/
     
 2.  开启mongodb服务

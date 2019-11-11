@@ -20,23 +20,26 @@ HBase有三种安装模式：本地模式、伪分布模式和全分布模式。
 
 #### 四、实验内容
 
-  1. 使用Hbase Shell连接HBase。
+  1. 启动HBase及ZooKeeper
+     在所有节点都运行`zkServer.sh start`以启动ZooKeeper
+     在master节点运行`start-all.sh`以启动hadoop
+     在master节点运行`start-hbase.sh`以启动Hadoop集群
 
-  2. 创建表student,且有2个列族，分别为`stuinfo`,`course`,显示表结构。
+  2. 使用Hbase Shell连接HBase。
 
-  3.  修改表结构，`course`列族返回最大版本数为3，显示表结构。 
+  3. 创建表student,且有2个列族，分别为`stuinfo`,`course`,显示表结构。
 
-  4. 向列族中增加列
+  4.  修改表结构，`course`列族返回最大版本数为3，显示表结构。 
+
+  5. 向表中添加数据，要求包括以下列，并至少包含两个样例：
 
      >stuinfo列族：name、age、sex、dept
 
      > course列族：english、math、physics
 
-  5. 向表中添加数据，至少添加2个学生的信息。
-
   6. 添加完数据后，用`scan`命令查询`student`表中的所有信息。  
 
-  7.  更新数据，将`stuinfo`列族中的`age`列的值加1。 
+  7.  更新数据，将`course`列族中的`math`列值都加5 
 
   8. 使用get查询`course`列族的信息。
 
