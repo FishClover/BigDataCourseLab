@@ -16,14 +16,9 @@
 
 MongoDB 是由 C++ 语言编写的一个面向文档存储的数据库，操作起来比较简单和容易。MongoDB旨在为 WEB 应用提供可扩展的高性能数据存储解决方案。  
 
-#### 四、注意事项
-
-
-
 #### 四、实验内容
 
 1.  利用MongoDB官网上的安装指南完成最新版本MongoDB的安装部署。
-    
     
     *root用户的密码为zkpk
     参考链接 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-red-hat/
