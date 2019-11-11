@@ -16,17 +16,23 @@
 
 MongoDB 是由 C++ 语言编写的一个面向文档存储的数据库，操作起来比较简单和容易。MongoDB旨在为 WEB 应用提供可扩展的高性能数据存储解决方案。  
 
+#### 四、注意事项
+
+
+
 #### 四、实验内容
 
 1.  利用MongoDB官网上的安装指南完成最新版本MongoDB的安装部署。
+    
+    
+    *root用户的密码为zkpk
     参考链接 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-red-hat/
-    root用户的密码为zkpk
     
 2.  开启mongodb服务
 
 3.  使用数据导入组件mongoimport，读入mongo_test.txt文件，到名为student的数据库中名为score的collection中。
     *mongo_test.txt文件内容如下，需自行创建
-    
+
     ```
     {"name":"zhangsan","age":18,"sex":"man","transcript":{"yuwen":50,"shuxue":100,"yingyu":90}}
     
@@ -40,12 +46,10 @@ MongoDB 是由 C++ 语言编写的一个面向文档存储的数据库，操作�
     
     {"name":"shenba","age":67,"sex":"woman","transcript":{"yuwen":78,"shuxue":34,"yingyu":1}}
     ```
-    
-    
-    
-4.  参考链接 https://docs.mongodb.com/manual/reference/program/mongoimport/
 
-5.  在mongo shell中实现以下需求。
+    参考链接 https://docs.mongodb.com/manual/reference/program/mongoimport/
+
+4.  在mongo shell中实现以下需求。
     参考链接 https://docs.mongodb.com/manual/tutorial/getting-started/
     https://docs.mongodb.com/manual/crud/
 

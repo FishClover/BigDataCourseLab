@@ -1,6 +1,0 @@
-{"name":"zhangsan","age":18,"sex":"man","transcript":{"yuwen":50,"shuxue":100,"yingyu":90}}
-{"name":"lisi","age":21,"sex":"woman","transcript":{"yuwen":10,"shuxue":100,"yingyu":90}}
-{"name":"wangwu","age":31,"sex":"man","transcript":{"yuwen":12,"shuxue":4356,"yingyu":45}}
-{"name":"zhaoliu","age":12,"sex":"woman","transcript":{"yuwen":50,"shuxue":56,"yingyu":12}}
-{"name":"yanqi","age":56,"sex":"man","transcript":{"yuwen":78,"shuxue":100,"yingyu":90}}
-{"name":"shenba","age":67,"sex":"woman","transcript":{"yuwen":78,"shuxue":34,"yingyu":1}}
