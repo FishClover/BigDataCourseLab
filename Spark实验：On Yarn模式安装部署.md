@@ -9,7 +9,7 @@ Spark实验：Spark on Yarn安装部署
 -   主要步骤：
 
     -   解压安装Spark
--   配置Spark on Yarn
+    -   配置Spark on Yarn
     -   运行Spark on Yarn的测试用例
 
 2、实验环境
@@ -32,9 +32,9 @@ Spark实验：Spark on Yarn安装部署
 ------
 
 -   常见linux命令的使用
--   通过修改.bash_profile文件配置Spark
+-   通过修改`.bash_profile`文件配置Spark
 -   验证Spark on Yarn安装
--   Spark Web UI的使用
+-   Yarn Resource Manager WebApp的使用
 
 5、实验步骤
 ----
