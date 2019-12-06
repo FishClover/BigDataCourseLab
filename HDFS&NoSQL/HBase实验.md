@@ -20,10 +20,10 @@ HBase有三种安装模式：本地模式、伪分布模式和全分布模式。
 
 #### 四、实验内容
 
-  1. 启动HBase及ZooKeeper
+  1. 分别启动ZooKeeper、Hadoop集群和HBase集群
      在所有节点都运行`zkServer.sh start`以启动ZooKeeper
-     在master节点运行`start-all.sh`以启动hadoop
-     在master节点运行`start-hbase.sh`以启动Hadoop集群
+     在master节点运行`start-all.sh`以启动Hadoop集群
+     在master节点运行`start-hbase.sh`以启动HBase集群
 
   2. 使用Hbase Shell连接HBase。
 

@@ -54,14 +54,10 @@ HBase编程：HBase表操作
 5、实验步骤
 --------
 
-1. 启动Hadoop集群
-
-2.  启动zookeeper集群
-
-3.  启动HBase集群
-
-4.  打开Eclipse，创建Java project，并导入hbase的lib目录下的所有jar包。
-
-5.  创建hbaseTest类，编写相应的createTable和deleteTable方法。
-
-6.  执行程序，在hbase shell中查看结果。
+1. 分别启动ZooKeeper、Hadoop集群和HBase集群
+    在所有节点都运行`zkServer.sh start`以启动ZooKeeper
+    在master节点运行`start-all.sh`以启动Hadoop集群
+    在master节点运行`start-hbase.sh`以启动HBase集群
+2. 打开Eclipse，创建Java project，并导入hbase的lib目录下的所有jar包。
+3. 创建hbaseTest类，编写相应的createTable和deleteTable方法。
+4. 执行程序，在hbase shell中查看结果。
